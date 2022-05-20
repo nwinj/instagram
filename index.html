@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    *{
+      padding: 0%;
+      margin: 0%;
+      box-sizing: border-box;
+      font-family: 'poppin',sans-serif;
+    }
+    .con{
+      background-color: white;
+    }
+    .box{
+      background-color: aliceblue;
+      border-color: black;
+      width: 18%;
+      position: absolute;
+      height: 60vh;
+      left: 700px;
+      top: 200px;
+      border-radius: 10px;
+    }
+    .logo{
+      position: absolute;
+      left: 85px;
+      margin-top: 50px;
+    }
+    .email{
+      width: 80%;
+      padding: 10px;
+      border-radius: 10px;
+      color:#AAAAAA;
+      position: absolute;
+      top: 80px;
+      left: 33px;
+      border: thin;
+    }
+    .pa{
+      width: 80%;
+      padding: 10px;
+      border-radius: 10px;
+      color:#AAAAAA;
+      position: absolute;
+      top: 150px;
+      left: 33px;
+      border: thin;
+      
+
+    }
+    .b{
+      width: 100%;
+      background-color:#1aa3ff ;
+      padding: 10px;
+      border-radius: 8px;
+      position: absolute;
+      top: 250px;
+      left: 10px;
+      border: thin;
+      cursor: pointer;
+    }
+    @media (max-width:900px){
+      .box{
+        width: 90%;
+        left: 20px;
+      }
+    }
+
+
+  </style>
+</head>
+<body>
+  <div class="co">
+    <div class="box">
+      <img src="https://www.instagram.com/static/images/web/logged_out_wordmark.png/7a252de00b20.png" class="logo">
+      <div class="email">
+        <input type="email" name="email"  placeholder="Email" class="email" />
+        <input type="password" name="pas"  placeholder="Password" class="pa" />
+        <button type="button" name="button" class="b">Login</button>
+      </div>
+    </div>
+  </div>
+  
+</body>
+</html>
